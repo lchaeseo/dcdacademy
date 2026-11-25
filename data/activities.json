@@ -1,0 +1,42 @@
+[
+  {
+    "id": "design-talk",
+    "clubId": "design",
+    "title": "디자인 레퍼런스 리딩",
+    "date": "2026-10-16",
+    "description": "동시대 디자인 사례를 함께 살펴보고 시각 언어와 맥락을 읽어보는 세션입니다.",
+    "image": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1000&q=85",
+    "images": [
+      "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "content": "이번 세션에서는 각자 수집한 디자인 레퍼런스를 공유하고, 형태와 색상뿐 아니라 작업이 만들어진 배경과 메시지를 함께 분석했습니다. 서로 다른 관점이 모여 하나의 사례를 더 깊게 이해하는 시간이었습니다."
+  },
+  {
+    "id": "archive-workshop",
+    "clubId": "design",
+    "title": "아카이브 워크숍",
+    "date": "2026-09-22",
+    "description": "일상에서 발견한 시각 자료를 수집하고 나만의 분류 체계를 만들어 보았습니다.",
+    "image": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1000&q=85",
+    "images": [
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "content": "포스터, 인쇄물, 패키지 등 주변의 시각 자료를 수집한 뒤 각자의 기준으로 분류하고 기록했습니다. 자료를 바라보는 기준이 아카이브의 개성을 만든다는 점을 경험했습니다."
+  },
+  {
+    "id": "spring-seminar",
+    "clubId": "ux",
+    "title": "UX 사례 분석 워크숍",
+    "date": "2026-05-14",
+    "description": "일상에서 사용하는 서비스의 경험을 관찰하고 개선 기회를 찾아보는 활동입니다.",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=85",
+    "images": [
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=85"
+    ],
+    "content": "사용자의 관점에서 서비스 이용 과정을 살펴보고 불편한 지점과 긍정적인 경험을 기록했습니다. 관찰한 내용을 바탕으로 개선 방향을 함께 논의했습니다."
+  }
+]

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="학회 운영에 필요한 서류 다운로드" />
+    <title>Documents — ACADEMIC ARCHIVE</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/documents.js" defer></script>
+  </head>
+  <body data-page="documents">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="DCD 학회 홈"
+        >DCD 학회</a
+      >
+      <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="주 메뉴">
+        <a class="active" href="documents.html">Documents</a>
+      </nav>
+    </header>
+    <main class="documents-page wrap">
+      <section class="document-list-section">
+        <div class="document-list-heading">
+          <h2>자료실</h2>
+          <span id="document-count"></span>
+        </div>
+        <div id="document-list" class="document-list">
+          <p class="loading-state">서류 목록을 불러오는 중입니다...</p>
+        </div>
+        <!-- <p class="document-notice">
+          ※ 다운로드할 PDF 파일은 <code>assets/documents/</code> 폴더에 추가한
+          뒤 <code>data/documents.json</code>의 파일 경로를 수정해 주세요.
+        </p> -->
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-bottom">
+        <span>© mju_dcd</span>
+        <a href="#" class="back-top">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

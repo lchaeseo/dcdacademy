@@ -1,0 +1,23 @@
+[
+  {
+    "id": "open",
+    "title": "학회 개설 신청서",
+    "file": "assets/documents/학회 개설 신청서.hwpx",
+    "format": "HWPX",
+    "updated": "2026.11"
+  },
+  {
+    "id": "close",
+    "title": "학회 폐부 신청서",
+    "file": "assets/documents/학회 폐부 신청서.hwpx",
+    "format": "HWPX",
+    "updated": "2026.11"
+  },
+  {
+    "id": "fund",
+    "title": "학회 지원금 신청서",
+    "file": "assets/documents/학회 지원금 신청서.hwpx",
+    "format": "HWPX",
+    "updated": "2026.11"
+  }
+]

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="학과의 다양한 학회 활동과 연구를 기록하는 ACADEMIC ARCHIVE"
+    />
+    <title>ACADEMIC ARCHIVE — Discover your community</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Academic Archive 홈"
+        >DCD 학회</a
+      >
+      <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="주 메뉴">
+        <a href="documents.html">Documents</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero wrap" id="about">
+        <div class="hero-content">
+          <p class="eyebrow">DIGITAL CONTENT DESIGN 학회</p>
+          <h1>
+            <span class="hero-hello">안녕하세요,</span>
+            디지털콘텐츠디자인학과<br />
+            학회 사이트입니다.
+          </h1>
+          <p class="hero-lead">
+            각자의 관심이 모여 새로운 가능성이 되는 곳.<br />
+            학회를 만들고, 기록하고, 함께 나누는 공간입니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-solid" href="#apply">학회 신청 방법 보기</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 학회 신청 안내 (학회가 개설되기 전까지 표시) =====
+           학회가 개설되면 이 section 전체를 삭제(또는 주석 처리)하고,
+           아래 "학회 목록" 주석을 풀어 주세요. -->
+      <section class="archive-section apply-section" id="apply">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <h2>학회 개설 방법</h2>
+            </div>
+          </div>
+          <p class="section-intro">
+            관심 있는 주제가 있다면 직접 학회를 만들어 보세요.
+          </p>
+
+          <ol class="apply-steps">
+            <li>
+              <span class="step-no">01</span>
+              <h3>주제와 팀 정하기</h3>
+              <p>함께할 학회원과 운영할 주제, 활동 방향을 정리합니다.</p>
+            </li>
+            <li>
+              <span class="step-no">02</span>
+              <h3>개설 신청서 작성</h3>
+              <p>
+                Documents 페이지에서 <b>학회 개설 신청서</b>를 내려받아
+                작성합니다.
+              </p>
+            </li>
+            <li>
+              <span class="step-no">03</span>
+              <h3>신청서 제출</h3>
+              <p>작성한 신청서를 구글폼으로 제출하고 승인 결과를 기다립니다.</p>
+            </li>
+            <li>
+              <span class="step-no">04</span>
+              <h3>활동 시작 · 기록</h3>
+              <p>
+                승인 후 활동을 시작하고, 필요하면 <b>지원금 신청서</b>를
+                제출합니다. 활동은 이 사이트에 아카이빙됩니다.
+              </p>
+            </li>
+          </ol>
+
+          <div class="apply-cta">
+            <div>
+              <strong>1. 필요한 서류 받기</strong>
+              <span>개설 · 폐부 · 지원금 신청서를 내려받을 수 있습니다.</span>
+            </div>
+            <a class="btn btn-solid" href="documents.html">서류 다운로드 ↗</a>
+          </div>
+
+          <!-- 구글폼 링크: 아래 FORM_URL 부분을 실제 구글폼 주소로 바꿔 주세요. -->
+          <div class="apply-cta">
+            <div>
+              <strong>2. 학회 신청서 제출하기</strong>
+              <span>작성한 신청서는 구글폼으로 제출해 주세요.</span>
+            </div>
+            <a
+              class="btn btn-solid"
+              href="https://forms.gle/FORM_URL"
+              target="_blank"
+              rel="noopener noreferrer"
+              >신청하기 ↗</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 학회 목록 (학회가 개설되면 아래 주석을 풀어 주세요) =====
+           주석을 풀 때 위의 "학회 신청 안내" section은 지워도 되고,
+           그대로 두어도 됩니다.
+      <section class="archive-section" id="archive">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / THE COLLECTION</p>
+              <h2>Explore<br /><em>the archive.</em></h2>
+            </div>
+            <div class="section-meta">
+              <span>OUR COMMUNITIES</span
+              ><strong id="club-count">— COLLECTIONS</strong>
+            </div>
+          </div>
+          <p class="section-intro">
+            각자의 관심이 모여 새로운 가능성이 되는 곳.<br />우리 학과의 다양한
+            학회와 함께해 보세요.
+          </p>
+          <div
+            class="accordion-shell"
+            id="club-accordion"
+            aria-label="학회 목록"
+          >
+            <p class="loading-state">아카이브를 불러오는 중입니다...</p>
+          </div>
+        </div>
+      </section>
+      ===== 학회 목록 끝 ===== -->
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-bottom">
+        <span>© mju_dcd</span>
+        <a href="#" class="back-top">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
